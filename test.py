@@ -1,5 +1,3 @@
-#  -*- coding:utf-8 -*-
-# Author:Mr.屌丝
 import json
 import os.path
 from hashlib import sha1
