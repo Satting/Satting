@@ -1,0 +1,41 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+target
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.xml.versionsBackup
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+/logs/
+
+### rebel ###
+rebel-remote.xml
+.rebel.xml.bak
+.rebel-remote.xml.bak
+rebel.xml
+
+###maven flatten plugin###
+.flattened-pom.xml
+
+### docker build ###
+organization-host-api.jar
+organization-host-eventhandler.jar
+organization-host-job.jar
