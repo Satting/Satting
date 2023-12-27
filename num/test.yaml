@@ -1,0 +1,32 @@
+#url: http://www.ibiquge.cc/24/ #圣墟
+#url: http://www.ibiquge.cc/1712/ #三寸人间
+#url: http://www.ibiquge.cc/4/ #元尊
+url: http://api.drumbeatdev.com/hr-management-v3/care/push_activity/push
+headers:
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'
+  Authorization: eyJ0eXAiOiJKV1QiLCJ2ZXJzaW9uIjoidjMiLCJhbGciOiJSUzI1NiJ9.eyJkZXQiOiIiLCJuYW1lIjoi5b2t55u46LGqIiwiYWRtIjoiMSIsImlkIjoiNDI5OTE2NjgxMDIxMjU5Nzc2IiwiZXhwIjoxNzAyNjI0MTI1LCJpYXQiOjE3MDIzNjQzMjUsInVkIjoie1wiYXBwSWRcIjpcIjQzNjgwOTQxOTEyNTI2NDM4NFwiLFwidGVuYW50SWRcIjpcIjEwMDAwMDAwMDAwMDAwMDAwMFwiLFwiZGV2aWNlXCI6MTB9In0.R-XHSEA1M2CiRLOytVCCIk5vkPBNa4T84sE7qAGeZjk8T05v8bd5EmuF-MZ5MqmV8BEFwTyNZmzaKQc6LACHqBi0hlqniaEDeKpypRYafIdDvQ8qFN4M8nPqFWWbw006ikUap8ITmirtylVN_2DGKr5sed0r6rLQREK5OjDS_ObEpV4yKGmLshv__AbF9FLM8QWhNKpYWB9Kty4n895r41wwa_xemSsu1H8NUdvjRF8eZNLjF491zRZCt0vuepxredv0esttjLWAtNtgphFCbUFIeb2DPq3qhxI6k8fsG9sE3zP_MN1P4h9YQnvjJhVF5jjlkAdNRsyWt6ondNZ7zw
+json:
+  id: '654135594087137280'
+  name: 晋职-测试年终报告
+  type_name: 晋职
+  template_name: '导购-系统变量,系统变量,基础信息-系统变量,总经理-系统变量,事业部总裁-系统变量,集团总裁-系统变量,业务员-系统变量,商圈主管-系统变量'
+  push_way: 2
+  enable_state: true
+  push_state: 2
+  push_times: 61
+  push_emp_num: 2
+#  push_time: '2023-12-13 13:44:21'
+  push_account_name: 系统任务
+  push_emp_scope: 2
+  scheduled_push: false
+  scopes:
+    - type: account
+      data_id: '646955535597608960'
+      data_name: 张宇航
+      title: 张宇航
+      tabId: '5'
+    - type: account
+      data_id: '429916681021259776'
+      data_name: 彭相豪
+      title: 彭相豪
+      tabId: '5'
