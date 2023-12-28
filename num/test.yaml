@@ -1,7 +1,7 @@
 #url: http://www.ibiquge.cc/24/ #圣墟
-#url: http://www.ibiquge.cc/1712/ #三寸人间
+url: http://www.ibiquge.cc/1712/ #三寸人间
 #url: http://www.ibiquge.cc/4/ #元尊
-url: http://api.drumbeatdev.com/hr-management-v3/care/push_activity/push
+#url: http://api.drumbeatdev.com/hr-management-v3/care/push_activity/push
 headers:
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36'
   Authorization: eyJ0eXAiOiJKV1QiLCJ2ZXJzaW9uIjoidjMiLCJhbGciOiJSUzI1NiJ9.eyJkZXQiOiIiLCJuYW1lIjoi5b2t55u46LGqIiwiYWRtIjoiMSIsImlkIjoiNDI5OTE2NjgxMDIxMjU5Nzc2IiwiZXhwIjoxNzAyNjI0MTI1LCJpYXQiOjE3MDIzNjQzMjUsInVkIjoie1wiYXBwSWRcIjpcIjQzNjgwOTQxOTEyNTI2NDM4NFwiLFwidGVuYW50SWRcIjpcIjEwMDAwMDAwMDAwMDAwMDAwMFwiLFwiZGV2aWNlXCI6MTB9In0.R-XHSEA1M2CiRLOytVCCIk5vkPBNa4T84sE7qAGeZjk8T05v8bd5EmuF-MZ5MqmV8BEFwTyNZmzaKQc6LACHqBi0hlqniaEDeKpypRYafIdDvQ8qFN4M8nPqFWWbw006ikUap8ITmirtylVN_2DGKr5sed0r6rLQREK5OjDS_ObEpV4yKGmLshv__AbF9FLM8QWhNKpYWB9Kty4n895r41wwa_xemSsu1H8NUdvjRF8eZNLjF491zRZCt0vuepxredv0esttjLWAtNtgphFCbUFIeb2DPq3qhxI6k8fsG9sE3zP_MN1P4h9YQnvjJhVF5jjlkAdNRsyWt6ondNZ7zw
