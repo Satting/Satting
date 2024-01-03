@@ -1,6 +1,6 @@
 import pymysql
 
-from yaml_util import read_yaml
+from Test.yaml_util import read_yaml
 
 db = pymysql.connect(
     host='192.168.20.10',

@@ -1,7 +1,7 @@
 import re
 
-from requests_util import RequestUtil
-from yaml_util import read_yaml
+from Test.requests_util import RequestUtil
+from Test.yaml_util import read_yaml
 
 
 
