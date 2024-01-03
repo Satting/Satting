@@ -48,6 +48,10 @@ def read_yaml_testcase(yamlpath):
         value = yaml.load(f, yaml.FullLoader)
         return value
 
+# date = read_yaml_testcase("num.yaml")
+# print(date)
+# print(date['a'])
+
 
 def load_yaml(self, yaml_file_name):
     file_path = os.path.join(self.BASE_PATH, "data", yaml_file_name)
