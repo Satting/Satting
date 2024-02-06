@@ -32,6 +32,7 @@ for j in tenant:
         db.commit()
         print('导入成功')
         i = i + 1
+        
         # print(sql_t)
 # 关闭数据库
 db.close()
