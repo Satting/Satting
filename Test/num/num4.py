@@ -1,13 +1,14 @@
-import time
+def num(n, k):
+    if type(n) != int:
+        a = 0
+        if (n or k) <= 0:
+            print('请输入大于0的正整数')
+        else:
+            for i in range(n+1):
+                str(n)
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
+            return    a
+        print('请输入大于0的正整数')
 
-driver = webdriver.Chrome()
-driver.implicitly_wait(20)  # 隐式等待， 全局有效，等待十秒 ，超时报错
-driver.maximize_window()
-driver.get('https://www.baidu.com')
 
-time.sleep(3)
-driver.find_element(By.ID, 'kw').send_keys("selenium")
-time.sleep(3)
+print(num(2.2, 55))
