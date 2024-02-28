@@ -1,5 +1,6 @@
-from Test.yaml_util import read_yaml_testcase
+# from Test.yaml_util import read_yaml_testcase
+from Test.yaml_util import read_yaml
 
-date = read_yaml_testcase(r"num/num.yaml")
-print(date)
-print(date['a'])
+a = read_yaml('a')
+print(a)
+# date = read_yaml_testcase(r"num/num.yaml")
