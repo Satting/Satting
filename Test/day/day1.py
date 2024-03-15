@@ -1,6 +1,7 @@
 import re
+import threading
 from queue import Queue
-from threading import Lock, Thread
+from threading import Lock
 
 from lxml import etree
 
@@ -10,7 +11,7 @@ from Test.yaml_util import read_yaml
 
 class biqu_pavilion(object):
 
-    def __int__(self):
+    def __init__(self):
         res = RequestUtil().send_all_request(method='get', url=read_yaml('url'), headers=read_yaml('headers'))
         r = res.text
         self.q = Queue()
@@ -21,8 +22,11 @@ class biqu_pavilion(object):
             self.q.put(i)
         self.fp = open(self.title[0] + '.txt', 'w', encoding='utf-8')
 
+
+
     def get_cateid(self):
-        for i in self.html:
+        # for i in self.html:
+        while not self.q.empty():
             url = self.q.get()
             res = RequestUtil().send_all_request(method='get', url='http://www.ibiquge.cc' + url[0], headers=read_yaml('headers')).text
             ht = etree.HTML(res)
@@ -33,14 +37,18 @@ class biqu_pavilion(object):
             self.fp.write(url[1] + '\n')
             self.fp.write(sxu + '\n')
             self.lock.release()
-            print(i[1], '爬取成功')
+            print(url[0], '爬取成功')
 
     def parse_html(self):
+        threads = []
         for i in range(5):
-            t = Thread(target=self.get_cateid())
+            thread = threading.Thread(target=self.get_cateid)
+            threads.append(thread)
+        for t in threads:
             t.start()
 
 
 if __name__ == '__main__':
     spider = biqu_pavilion()
-    spider.main()
+    spider.parse_html()
+    spider.get_cateid()
